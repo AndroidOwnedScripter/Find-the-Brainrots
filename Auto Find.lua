@@ -2,8 +2,8 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Find The Noobs",
-	LoadingTitle = "Find The Noobs",
+	Name = "Find The Brainrots",
+	LoadingTitle = "Find The Brainrots",
 	LoadingSubtitle = "Auto Finder",
 	ConfigurationSaving = {
 		Enabled = false
@@ -22,7 +22,7 @@ local AutoFind = false
 
 -- Toggle Auto Find
 Tab:CreateToggle({
-	Name = "Auto Find",
+	Name = "Afk (wait for brainrots spawn)",
 	CurrentValue = false,
 	Flag = "AutoFindToggle",
 	Callback = function(Value)
