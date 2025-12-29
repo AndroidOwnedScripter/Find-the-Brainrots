@@ -10,7 +10,7 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab("Find the noobs", 4483362458)
+local Tab = Window:CreateTab("Find the brainrots", 4483362458)
 
 -- Variables
 local player = game.Players.LocalPlayer
